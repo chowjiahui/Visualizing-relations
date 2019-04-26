@@ -1,0 +1,46 @@
+Google employees suspect it is still working on secret Chinese 'Dragonfly' project The censored search enginewould blacklist words and phrases like 'human rights', 'Nobel Prize'and 'student protest' - The Independent (UK)
+06-Mar-2019 06:07:49 AM
+Google employees fear itis secretly developing a controversial search engine for China despite publicly stating that the project had been halted in December, according to a new report.
+
+The new search engine, dubbed Dragonfly, was originally meant to launch between January and April this year but the project was shelved following an outcry from Google workers.
+
+China's strict censorship laws mean Google's search engine is blocked by the so-called Great Firewall of China. A new platform would conform to the country's laws by blacklisting words and phrases like "human rights", "Nobel Prize" and "student protest", according to internal documents obtained by
+
+The Intercept
+
+.
+
+Hundreds of Google employees protested the new search engine, claiming that it would stifle free speech and enable state surveillance. An open letter published by Google employees in November stated: "Our opposition to Dragonfly is not about China: We object to technologies that aid the powerful in oppressing the vulnerable, wherever they may be."
+
+A group of Google employees conducted their owninvestigation after growing concerned that the company planned to continue developing the censored search engine behind their backs, the publication reported. They discovered ongoing work on a batch of code related to the Dragonfly project, prompting further concerns that Google plans to launch the search engine.
+
+Google told Dragonfly workers in December that it had ceased plans to launch the search engine and would move them onto different projects within the company.
+
+A confidential message from Google executive Caesar Sengupta to engineers stated: "While we've made progress in our understanding of the market and user needs, many unknowns remain and currently we have no plans to launch."
+
+Google CEO Sundar Pichaiwas subsequently questioned by Congress over the controversial search engine, to which he replied that Google had "no plans" to launch a search engine in China.
+
+He added: "Getting access to information is an important human right. We are always compelled, across the world, to provide access to information."
+
+Employees who kept tabs on a repository of code linked to Dragonfly reportedly discovered work had been done on the project since December. Since January, more than 400 changes were made to the code, potentially indicating the project is ongoing.
+
+The employees also said that Google continues to maintain a budget for the Dragonfly budget.
+
+Amnesty International activists hold a giant dragonfly-shaped balloon with a banner reading 'Google, do not censor in China, no to the Dragonfly project' during a protest outside the Google headquarters in Madrid on 27 November, 2018 (AFP/Getty Images)
+
+A Google spokesperson told
+
+The Independent
+
+that the latest report is "inaccurate" and denied that any work had been done since December.
+
+"As we've said for many months, we have no plans to launch Search in China and there is no work being undertaken on such a project," the spokesperson said. "Team members have moved to new projects."
+
+Google's apparent unwillingness to publicly rule out ever launching a some form of search engine in China has helped fuel the speculation surrounding Dragonfly and raised concerns from human rights organisations.
+
+Amnesty International called on Google to "publicly confirm that it has dropped Dragonfly for good, not just 'for now'."
+
+
+
+Copyright (c) 2019 Independent.co.uk
+

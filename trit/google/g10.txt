@@ -1,0 +1,28 @@
+Android TV bug exposes user photos and accounts; Google disables feature - Indian Express
+05-Mar-2019 07:30:56 PM
+Google's Android TV has a bug where the Android TV and Google Home app could potentially allow users to see every single account which is connected to an Android TV device, even account information of strangers. Further, the bug also exposes Google Photos of other account holders via the Ambient mode screensaver settings, reports XDA Developers.
+
+The security problem with the Google Android TV was first spotted by a Twitter user named Prashanth who has the handle @wothadei. He found the security flaw on his VU Android TV. VU is an India-based television brand, which has launched several Android TVs in the market.
+
+Both Google and Vu has issued statements to XDA Developers about the flaw. According to Google, they have disabled the option to remotely cast via the Google Assistant or view photos from Google Photos on Android TV devices.
+
+Google in its statement said it takes user privacy extremely seriously and is investigating this bug. Till then the feature stands disabled.
+
+Meanwhile, VU TV in a statement said, "Vu Televisions were recently informed about a malfunction of the Google Home App in an Android TV. After verifying the incident Vu Televisions informed Google who has confirmed it was a software malfunction of the Google Home App."
+
+When I access my Vu Android TV through the @Google Home app, and check the linked accounts, it basically lists what I imagine is every single person who owns this television. This is shocking incompetence.
+
+- prashanth (@wothadei) March 3, 2019
+
+According to the statement by VU, the problem appears to be on Google's Home app end. As the user showed in the screenshots, the bug ensured that the Google Home app was reflecting every single account linked to an Android TV device.
+
+Further personal photos of the linked accounts were also showing as an option in the screensaver settings on the Google Home app. According to the video shared by the user, he had the option of accessing Google Photos of strangers on his Google Home app in the screensaver mode for the Android TV.
+
+Of course, this creates a serious privacy and security concern. According to the user, resetting his Android TV, seemed to stop the problem.
+
+Copyright 2019 IE Online Media Services Pvt. Ltd., distributed by Contify.com
+
+
+
+Copyright (c) 2019 IE Online Media Services Pvt. Ltd., distributed by Contify.com
+

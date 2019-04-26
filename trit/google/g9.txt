@@ -1,0 +1,43 @@
+Alphabet Ups the Ante in Cybersecurity Space with Backstory - Zacks.com
+06-Mar-2019 05:59:59 AM
+Mar 05, 2019
+
+Alphabet's GOOGL cybersecurity division, Chronicle, introduced its first product since its inception after spinning out of Google X.
+
+Notably, the latest product, Backstory, is a security data and threat intelligence platform that offers storage for bulk information on a company's infrastructure by leveraging Google's robust analytics capabilities.
+
+The company aims to help security analysts in identifying big or significant threats from several security alerts with its latest move. This will help in focusing on threats of major concern.
+
+Backstory collects data from domain name servers, employee laptops or even phones and stores in Chronicle servers installed on the company's premises.
+
+Growth Prospects
+
+In today's world, cybercrimes and data breaches are taking place at an alarming rate which is raising the demand for cyber security services and products.
+
+Per a report from MarketsandMarkets, the global market for cybersecurity solutions is expected to witness a CAGR of 10.2% between 2018 and 2023 and to reach $248.26 billion by 2023.
+
+Another report from MarketsandMarkets shows that the global threat intelligence market is anticipated to hit $12.9 billion by 2023 by witnessing a CAGR of 19.7% between 2018 and 2023.
+
+Consequently, we believe Alphabet is likely to gain traction in these potential markets with its latest product, Backstory.
+
+Alphabet Inc. Revenue (TTM)
+
+Alphabet Inc. Revenue (TTM) | Alphabet Inc. Quote
+
+Rising Competition
+
+The above-mentioned growth opportunities are luring enough to attract other tech companies to bolster footprints into the cybersecurity market.
+
+Companies like IBM IBM , Splunk SPLK and Qualys QLYS , to name a few, have already forayed into the market with their security information and event management ("SIEM") software.
+
+However, Alphabet's foray with Backstory is likely to intensify the competition in this pace as it is similar to the existing offerings. Consequently, this move is likely to strengthen the company's competitive positioning.
+
+Further, the robust comparison capability of Backstory between new threats and a company's network record is expected to aid the company in gaining momentum among customers, which in turn will help it in fortifying its market position.
+
+Currently, Alphabet carries a Zacks Rank #3 (Hold). You can seethe complete list of today's Zacks #1 Rank (Strong Buy) stocks here.
+
+Breakout Biotech Stocks with Triple-Digit Profit Potential
+
+The biotech sector is projected to surge beyond $775 billion by 2024 as scientists develop treatments for thousands of diseases. They're also finding ways to edit the human genome to literally erase our vulnerability to these diseases.
+
+Zacks has just released Century of Biology: 7 Biotech Stocks to Buy Right Now to help investors profit from 7 stocks poised for outperformance. Our recent biotech recommendations have produced gains of +98%, +119% and +164% in as little as 1 month. The stocks in this report could perform even better.

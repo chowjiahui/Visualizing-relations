@@ -1,0 +1,19 @@
+UPDATE 1-Google plans to ban political ads before Canada election - Reuters News
+05-Mar-2019 11:34:48 AM
+Adds statement from Google Canada's head of public policy
+
+March 4 (Reuters) - Alphabet Inc's GOOGL.O Google will ban political advertising on its platform before the Canadian federal election, after the country introduced stringent transparency rules.
+
+The Bill C-76, which was passed in December, requires online platforms to keep a registry of all political and partisan advertisements they directly or indirectly publish.
+
+"For the duration of the 2019 federal election campaign, Google will not accept advertising regulated by Bill C-76," Colin McKay, Google Canada's head of public policy, said in a statement.
+
+"We're focusing our efforts on supporting Canadian news literacy programs and connecting people to useful and relevant election-related information."
+
+Election is due in October in Canada.
+
+Google will modify its ad policies and systems to block advertisers from running ads that fall under the purview of the definitions set out in Bill C-76.
+
+Other Google services such as enhanced search results and platforms, including YouTube, will still be available during the campaign period.
+
+This was first reported by the Globe and Mail.

@@ -1,0 +1,54 @@
+Google to ban political ads ahead of federal election, citing new transparency rules The decision comes in response to the Liberals' signature election measure, Bill C-76, which passed in December - Globe & Mail
+06-Mar-2019 06:49:30 AM
+Google is banning political advertising on its platforms ahead of the Canadian federal election because of new ad transparency rules it says would be too challenging to comply with.
+
+The decision comes in response to the Liberals' signature election measure, Bill C-76, which passed in December. Among other things, it requires online platforms to keep a registry of all political and partisan ads they directly or indirectly publish. The penalties for not doing so include fines and possible jail time.
+
+"We've come to the decision that the best way for Google to comply with the Elections Act in the 2019 election cycle is actually to stop accepting elections ads as defined in the legislation," said Colin McKay, Google Canada's head of public policy and government relations. "It is painful for us."
+
+The bill's advertising-transparency requirements come into force on June 30, or sooner if an early election is called.
+
+"This isn't a negotiating tactic," Mr. McKay added. "We're four months out from the period prescribed in legislation."
+
+Also: Facebook used third parties to lobby as it sought to influence legislation
+
+To enforce its ban, Google will modify its ad policies and systems to block advertisers from running ads that fall under the definitions set out in C-76. Other Google services, such as enhanced search results and platforms including YouTube, will still be available during the campaign period.
+
+Aside from the ad registry requirement, Google also expressed concerns about how it would detect ads of a partisan nature, which may not specifically mention a candidate or party by name. "The challenge for us is that that definition is extremely broad," Mr. McKay said.
+
+Democratic Institutions Minister Karina Gould said the decision was "very disappointing" in an e-mailed statement. "Google's decision to opt out of political advertising during the regulated period appears to have been made for business reasons and does not reflect on the quality of our laws, which are designed to protect Canadian voters and our elections."
+
+"We know that Google is enormously capable both technically and financially," Ms. Gould said. "It should apply these resources to producing a registry in Canada that complies with Canada's laws."
+
+The internet giant first spoke publicly about C-76 in November. In a presentation to a Senate committee, Google warned that the bill's requirements of online platforms were too onerous, and that they would be "extremely difficult" for the company to comply with.
+
+The presentation included marked up versions of Bill C-76 indicating which sections Google wanted removed or edited. Because of how Google's advertising systems work, the company argued, it doesn't know which ads get displayed, making a registry impossible. Mr. McKay said a change would require significant resources.
+
+In Google's system, ads can be targeted to users in an automated way, often through a real-time bidding process. When users visit a web page, as the page loads their profile is shared with an advertising exchange, such as Google's AdEx platform. Through that exchange, the web page's publisher then auctions off the ads that will be shown to those users. Finally, the winning bidder displays an ad to the user.
+
+This entire process often lasts less than two tenths of a second.
+
+Under this system, Google argues the publisher may not know which ads were displayed. Similarly, the advertising exchange itself may not know which ad was shown - only that one advertiser beat out another during the auction. In cases where advertisers are running dozens or hundreds of advertising campaigns at once, this wouldn't be enough information to build the legally mandated registry.
+
+(Online platforms like Facebook and Twitter control their own ad systems and only display ads on their own properties, which could make it easier for them to monitor ad traffic.)
+
+Google is one of the world's largest digital-advertising companies. Its ad exchanges and ad-delivery services power a significant portion of all internet advertising, including Canada's. A study from the Canadian Media Concentration Project estimates that, in 2016, the company accounted for 48 per cent of all internet advertising in Canada, eclipsing Facebook, at 24 per cent.
+
+While it was engaging the Senate committee, Google also heavily lobbied the federal government. According to records from the Office of the Commissioner of Lobbying, Google had eight meetings on the topic of elections with representatives from the office of the Minister of Democratic Institutions, the office of the Minister of Foreign Affairs, Global Affairs Canada, senators, members of Parliament, the Privy Council Office and the Prime Minister's Office.
+
+Google isn't the only group grappling with the implications of the new rules. Newspapers, broadcast outlets, apps, games and other forms of media also qualify as "online platforms" as defined in the legislation.
+
+John Hinds, chief executive officer at industry group News Media Canada, said publishers may also have a hard time complying with C-76's requirements. "Our understanding is that each publisher will have to keep a directory of all ads that appear on their site," he said.
+
+"It's putting a huge liability on publishers. It's really an issue that we're not sure that publishers can even comply with," Mr. Hinds said.
+
+He said publishers may have to make the same decision Google has, and decline to run election ads during the federal election.
+
+"I think that has implications for the role of newspapers and for communities to engage in the electoral process," Mr. Hinds said.
+
+Follow this link to view this story on globeandmail.com: Google to ban political ads ahead of federal election, citing new transparency rules
+
+
+
+Copyright (c) 2019 The Globe and Mail Inc. and its licensors. All rights reserved.
+

@@ -1,0 +1,109 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 500px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "ProductRelease", "label": "ProductRelease", "shape": "dot", "title": "ProductRelease"}, {"id": "Google", "label": "Google", "shape": "dot", "title": "Google"}, {"id": "CompanyCompetitor", "label": "CompanyCompetitor", "shape": "dot", "title": "CompanyCompetitor"}, {"id": "AMZN.O", "label": "AMZN.O", "shape": "dot", "title": "AMZN.O"}, {"id": "JD.Com", "label": "JD.Com", "shape": "dot", "title": "JD.Com"}, {"id": "Amazon Inc", "label": "Amazon Inc", "shape": "dot", "title": "Amazon Inc"}, {"id": "JD.com", "label": "JD.com", "shape": "dot", "title": "JD.com"}, {"id": "Alibaba Group Holding Ltd", "label": "Alibaba Group Holding Ltd", "shape": "dot", "title": "Alibaba Group Holding Ltd"}, {"id": "Amazon", "label": "Amazon", "shape": "dot", "title": "Amazon"}, {"id": "Alphabet", "label": "Alphabet", "shape": "dot", "title": "Alphabet"}, {"id": "Alibaba", "label": "Alibaba", "shape": "dot", "title": "Alibaba"}, {"id": "Google Canada", "label": "Google Canada", "shape": "dot", "title": "Google Canada"}, {"id": "PersonCareer", "label": "PersonCareer", "shape": "dot", "title": "PersonCareer"}, {"id": "PersonRelation", "label": "PersonRelation", "shape": "dot", "title": "PersonRelation"}, {"id": "Bruno Le Maire", "label": "Bruno Le Maire", "shape": "dot", "title": "Bruno Le Maire"}, {"id": "Elizabeth Schulze", "label": "Elizabeth Schulze", "shape": "dot", "title": "Elizabeth Schulze"}, {"id": "Carrefour", "label": "Carrefour", "shape": "dot", "title": "Carrefour"}, {"id": "Alliance", "label": "Alliance", "shape": "dot", "title": "Alliance"}, {"id": "Acquisition", "label": "Acquisition", "shape": "dot", "title": "Acquisition"}, {"id": "CompanyTechnology", "label": "CompanyTechnology", "shape": "dot", "title": "CompanyTechnology"}, {"id": "Baidu", "label": "Baidu", "shape": "dot", "title": "Baidu"}, {"id": "BusinessRelation", "label": "BusinessRelation", "shape": "dot", "title": "BusinessRelation"}, {"id": "Office Depot", "label": "Office Depot", "shape": "dot", "title": "Office Depot"}, {"id": "Nitin Kashyap", "label": "Nitin Kashyap", "shape": "dot", "title": "Nitin Kashyap"}, {"id": "Andy Rubin", "label": "Andy Rubin", "shape": "dot", "title": "Andy Rubin"}, {"id": "Indictment", "label": "Indictment", "shape": "dot", "title": "Indictment"}, {"id": "CompanyLocation", "label": "CompanyLocation", "shape": "dot", "title": "CompanyLocation"}, {"id": "CompanyAffiliates", "label": "CompanyAffiliates", "shape": "dot", "title": "CompanyAffiliates"}, {"id": "Google India", "label": "Google India", "shape": "dot", "title": "Google India"}, {"id": "Flipkart", "label": "Flipkart", "shape": "dot", "title": "Flipkart"}, {"id": "CompanyInvestigation", "label": "CompanyInvestigation", "shape": "dot", "title": "CompanyInvestigation"}, {"id": "CompanyLegalIssues", "label": "CompanyLegalIssues", "shape": "dot", "title": "CompanyLegalIssues"}, {"id": "CompanyInvestment", "label": "CompanyInvestment", "shape": "dot", "title": "CompanyInvestment"}, {"id": "CompanyExpansion", "label": "CompanyExpansion", "shape": "dot", "title": "CompanyExpansion"}, {"id": "CompanyProduct", "label": "CompanyProduct", "shape": "dot", "title": "CompanyProduct"}, {"id": "Walmart", "label": "Walmart", "shape": "dot", "title": "Walmart"}, {"id": "Nancy Pelosi", "label": "Nancy Pelosi", "shape": "dot", "title": "Nancy Pelosi"}, {"id": "Caesar Sengupta", "label": "Caesar Sengupta", "shape": "dot", "title": "Caesar Sengupta"}, {"id": "Sundar Pichai", "label": "Sundar Pichai", "shape": "dot", "title": "Sundar Pichai"}, {"id": "Karina Gould", "label": "Karina Gould", "shape": "dot", "title": "Karina Gould"}, {"id": "FXStreet", "label": "FXStreet", "shape": "dot", "title": "FXStreet"}, {"id": "Valeria Bednarik", "label": "Valeria Bednarik", "shape": "dot", "title": "Valeria Bednarik"}, {"id": "Sundar Pichaiwas", "label": "Sundar Pichaiwas", "shape": "dot", "title": "Sundar Pichaiwas"}, {"id": "Colin McKay", "label": "Colin McKay", "shape": "dot", "title": "Colin McKay"}, {"id": "John Hinds", "label": "John Hinds", "shape": "dot", "title": "John Hinds"}, {"id": "BBC", "label": "BBC", "shape": "dot", "title": "BBC"}, {"id": "Storyweaver", "label": "Storyweaver", "shape": "dot", "title": "Storyweaver"}]);
+        edges = new vis.DataSet([{"from": "ProductRelease", "to": "Google"}, {"from": "CompanyCompetitor", "to": "AMZN.O"}, {"from": "CompanyCompetitor", "to": "JD.Com"}, {"from": "CompanyCompetitor", "to": "Amazon Inc"}, {"from": "CompanyCompetitor", "to": "JD.com"}, {"from": "CompanyCompetitor", "to": "Google"}, {"from": "CompanyCompetitor", "to": "Alibaba Group Holding Ltd"}, {"from": "CompanyCompetitor", "to": "Amazon"}, {"from": "CompanyCompetitor", "to": "Alphabet"}, {"from": "CompanyCompetitor", "to": "Alibaba"}, {"from": "Google Canada", "to": "PersonCareer"}, {"from": "PersonRelation", "to": "Bruno Le Maire"}, {"from": "PersonRelation", "to": "Elizabeth Schulze"}, {"from": "Carrefour", "to": "Alliance"}, {"from": "Carrefour", "to": "Acquisition"}, {"from": "CompanyTechnology", "to": "Baidu"}, {"from": "CompanyTechnology", "to": "Google"}, {"from": "BusinessRelation", "to": "Office Depot"}, {"from": "BusinessRelation", "to": "Alibaba"}, {"from": "Nitin Kashyap", "to": "PersonCareer"}, {"from": "Andy Rubin", "to": "Indictment"}, {"from": "Office Depot", "to": "CompanyLocation"}, {"from": "Office Depot", "to": "Alliance"}, {"from": "CompanyAffiliates", "to": "Alphabet"}, {"from": "CompanyAffiliates", "to": "Google"}, {"from": "Google India", "to": "PersonCareer"}, {"from": "Flipkart", "to": "Acquisition"}, {"from": "Google", "to": "CompanyInvestigation"}, {"from": "Google", "to": "CompanyLocation"}, {"from": "Google", "to": "CompanyLegalIssues"}, {"from": "Google", "to": "CompanyInvestment"}, {"from": "Google", "to": "PersonCareer"}, {"from": "Google", "to": "CompanyExpansion"}, {"from": "Google", "to": "CompanyProduct"}, {"from": "Google", "to": "Alliance"}, {"from": "CompanyInvestment", "to": "JD.com"}, {"from": "CompanyInvestment", "to": "Walmart"}, {"from": "PersonCareer", "to": "Bruno Le Maire"}, {"from": "PersonCareer", "to": "Nancy Pelosi"}, {"from": "PersonCareer", "to": "Caesar Sengupta"}, {"from": "PersonCareer", "to": "Sundar Pichai"}, {"from": "PersonCareer", "to": "Karina Gould"}, {"from": "PersonCareer", "to": "FXStreet"}, {"from": "PersonCareer", "to": "Valeria Bednarik"}, {"from": "PersonCareer", "to": "Sundar Pichaiwas"}, {"from": "PersonCareer", "to": "Colin McKay"}, {"from": "PersonCareer", "to": "John Hinds"}, {"from": "Alibaba", "to": "Alliance"}, {"from": "CompanyProduct", "to": "BBC"}, {"from": "CompanyInvestigation", "to": "Alphabet"}, {"from": "Storyweaver", "to": "Alliance"}, {"from": "JD.Com", "to": "CompanyExpansion"}, {"from": "CompanyLegalIssues", "to": "Alphabet"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        // default to using dot shape for nodes
+        options.nodes = {
+            shape: "dot"
+        }
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

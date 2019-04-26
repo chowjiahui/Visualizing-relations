@@ -1,0 +1,109 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 500px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "CCB", "label": "CCB", "shape": "dot", "title": "CCB"}, {"id": "CompanyAffiliates", "label": "CompanyAffiliates", "shape": "dot", "title": "CompanyAffiliates"}, {"id": "Feng Shixin", "label": "Feng Shixin", "shape": "dot", "title": "Feng Shixin"}, {"id": "PersonCareer", "label": "PersonCareer", "shape": "dot", "title": "PersonCareer"}, {"id": "Zhang Xiaolong", "label": "Zhang Xiaolong", "shape": "dot", "title": "Zhang Xiaolong"}, {"id": "BusinessRelation", "label": "BusinessRelation", "shape": "dot", "title": "BusinessRelation"}, {"id": "Pingan Industrial Logistics", "label": "Pingan Industrial Logistics", "shape": "dot", "title": "Pingan Industrial Logistics"}, {"id": "CCB International (Holdings) Limited (\u201cCCBIH", "label": "CCB International (Holdings) Limited (\u201cCCBIH", "shape": "dot", "title": "CCB International (Holdings) Limited (\u201cCCBIH"}, {"id": "CCBIH", "label": "CCBIH", "shape": "dot", "title": "CCBIH"}, {"id": "China Construction Bank Corporation (\u201cCCB", "label": "China Construction Bank Corporation (\u201cCCB", "shape": "dot", "title": "China Construction Bank Corporation (\u201cCCB"}, {"id": "CCB International Securities Limited", "label": "CCB International Securities Limited", "shape": "dot", "title": "CCB International Securities Limited"}, {"id": "CompanyEarningsAnnouncement", "label": "CompanyEarningsAnnouncement", "shape": "dot", "title": "CompanyEarningsAnnouncement"}, {"id": "CEB Bank", "label": "CEB Bank", "shape": "dot", "title": "CEB Bank"}, {"id": "Sogou Inc (Sogou)", "label": "Sogou Inc (Sogou)", "shape": "dot", "title": "Sogou Inc (Sogou)"}, {"id": "WeChat AI", "label": "WeChat AI", "shape": "dot", "title": "WeChat AI"}, {"id": "CompanyTechnology", "label": "CompanyTechnology", "shape": "dot", "title": "CompanyTechnology"}, {"id": "xyzq", "label": "xyzq", "shape": "dot", "title": "xyzq"}, {"id": "ContactDetails", "label": "ContactDetails", "shape": "dot", "title": "ContactDetails"}, {"id": "NaturalDisaster", "label": "NaturalDisaster", "shape": "dot", "title": "NaturalDisaster"}, {"id": "Activision Blizzard Inc", "label": "Activision Blizzard Inc", "shape": "dot", "title": "Activision Blizzard Inc"}, {"id": "WeChat", "label": "WeChat", "shape": "dot", "title": "WeChat"}, {"id": "Tencent", "label": "Tencent", "shape": "dot", "title": "Tencent"}]);
+        edges = new vis.DataSet([{"from": "CCB", "to": "CompanyAffiliates"}, {"from": "Feng Shixin", "to": "PersonCareer"}, {"from": "Zhang Xiaolong", "to": "PersonCareer"}, {"from": "BusinessRelation", "to": "Pingan Industrial Logistics"}, {"from": "CCB International (Holdings) Limited (\u201cCCBIH", "to": "CompanyAffiliates"}, {"from": "CCBIH", "to": "CompanyAffiliates"}, {"from": "CompanyAffiliates", "to": "China Construction Bank Corporation (\u201cCCB"}, {"from": "CompanyAffiliates", "to": "CCB International Securities Limited"}, {"from": "CompanyEarningsAnnouncement", "to": "CEB Bank"}, {"from": "CompanyEarningsAnnouncement", "to": "Sogou Inc (Sogou)"}, {"from": "WeChat AI", "to": "CompanyTechnology"}, {"from": "xyzq", "to": "ContactDetails"}, {"from": "NaturalDisaster", "to": "Activision Blizzard Inc"}, {"from": "WeChat", "to": "PersonCareer"}, {"from": "Tencent", "to": "CompanyTechnology"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        // default to using dot shape for nodes
+        options.nodes = {
+            shape: "dot"
+        }
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

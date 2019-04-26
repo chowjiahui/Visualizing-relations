@@ -1,0 +1,40 @@
+Google launches Bolo app to help children in India with reading, comprehension skills - Indian Express
+06-Mar-2019 08:30:54 PM
+Google today launched a new app called Bolo, which is aimed at helping students in India, especially those in rural parts, with their reading and comprehension skills.
+
+The Bolo app, which is launching in beta first, comes after a pilot project that Google ran with 900 children in over 200 villages in Uttar Pradesh with ASER centre.
+
+The annual ASER 2018 report showed that of all students enrolled in grade 5 in rural India, only about half of them can confidently read a grade 2 level textbook.
+
+The Google Bolo app will hope to plug that gap with its tutor-based approach in helping children read. The app includes an Assistant called Diya as well, which encourages children with their reading, understanding skills.
+
+Diya can speak in Hindi and English and will encourage the child when they are trying to read in English or Hindi. For instance when the child reads the text correctly, Diya says "Shabash" or very good.
+
+The app is currently limited to these two languages, though Google says it will expand it to more languages later. Bolo will also be a free app and relies on Google's speech recognition and text-to-speech technology.
+
+"With Bolo, we aim to encourage and engage kids so their love for reading grows and it becomes a daily habit. We believe that technology can be a powerful enabler. We have been piloting Bolo in 200 villages, and the early results are very encouraging. We are now actively working with a number of nonprofit partners to take it to more people across the country who could benefit from it," Nitin Kashyap, Product Manager, Google India said in a press statement.
+
+"We all have our own personal experience and know that reading aloud with someone giving 1:1 feedback helps improve reading skills. Many children, especially those in rural India don't have this support. With Bolo we wanted to bring a similar experience to anyone who needs it, via their smartphone," Zohair Hyder, Engineering lead for Bolo said.
+
+The idea with Bolo is to work as a personalized reading tutor, and the app gives positive and corrective feedback.
+
+Google has partnered with Storyweaver.org.in for content, which includes 50 stories in Hindi and 40 in English. Further, the app works without any data and even when the phone is offline.
+
+Bolo will get more content soon, said the company.
+
+On privacy, Google says the app does not require any information to be entered by the user. No name, age, gender is needed nor is a Gmail account needed to sign in. The app is also ad-free. Any personal data associated with app stays on the device.
+
+Google also says that multiple children can use the same app and track their progress separately. As the child progresses with their skills, the app adjusts the difficulties of the stories.
+
+Diya, the reading buddy will not explain the meaning of the word in English and Hindi, but can also explain and pronounce each letter for the child in a sentence or word.
+
+The beta version of Bolo, launched in India first, is optimised for native Hindi speakers. The app works with phones running Android 4.4 (Kit Kat) and higher.
+
+Google will be working closely with four non-profit partners including Pratham Education Foundation, Room to Read, Saajha and Kaivalya Education Foundation - a Piramal Initiative, who have extensive experience of working in this space to take Bolo to more children.
+
+Copyright 2019 IE Online Media Services Pvt. Ltd., distributed by Contify.com
+
+
+
+Copyright (c) 2019 IE Online Media Services Pvt. Ltd., distributed by Contify.com
+

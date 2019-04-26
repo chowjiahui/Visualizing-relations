@@ -1,0 +1,31 @@
+Google may be still working on censored Chinese search engine - BBC Monitoring Service
+06-Mar-2019 09:17:11 PM
+Text of report in English by Taiwan News website on 6 March
+
+Google employers have uncovered that work on the company's censored search engine for China, Dragonfly, appears to be secretly ongoing, a report from The Intercept reveals.
+
+Three inside sources told the publication they had identified a batch of code associated with Dragonfly that is still receiving modifications. Observing the code repositories stored on Google's computers, the employers found 500 changes had been made to Dragonfly-linked code in December, and 400 more between January and February.
+
+Google reportedly disbanded the Dragonfly project in December last year following a slew of internal disputes over the ethics of developing a censored search engine.
+
+Over a thousand employees banded together to protest the project in August. Google also received condemnation from NGOs, who described the plan as "an alarming capitulation by Google on human rights" in an open letter.
+
+The employees told The Intercept that around 100 workers are still allocated to Dragonfly's "cost center," which means a budget exists for potential ongoing development. Other sources have said, however, it could just be team members assigned to wrap up unfinished elements of the particular aspect of work they were doing for Dragonfly.
+
+Despite Google CEO Sundar Pichai announcing the company had no plans to launch the project, he did not rule out working with oppressive governments in the future, nor (in response to protests) that censorship is unacceptable. This has led many of Google's skilled engineers and developers to quit the company.
+
+One software engineer, who left in February, told the The Intercept he and his coworkers had "strong indications that something is still happening" with Dragonfly. If developments are continuing however, he said, Google is obscuring the project team's leadership.
+
+Google search was fully operational in China until 2009, when the government began arbitrarily restricting access to certain content.
+
+In response to China blocking the page in 2010, Google said it would not censor searches and moved its servers to Hong Kong. After a long battle over maintaining freedom of access for everyone, Google was finally blocked by the government's Great Firewall regime in 2014.
+
+China reached 800 million internet users in 2018, making the search engine market a multi-billion dollar industry. Home-grown technology giant Baidu leads the market with a 74.63 revenue share.
+
+Source: Taiwan News website, Taipei, in English 1314 gmt 6 Mar 19
+
+BBC Mon AS1 kja/prt
+
+
+
+Copyright © 2019 BBC Monitoring Service
